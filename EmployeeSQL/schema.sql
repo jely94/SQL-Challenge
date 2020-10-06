@@ -1,7 +1,7 @@
 -- Create the tables for each csv file
 CREATE TABLE departments (
-  dept_no VARCHAR(5) NOT NULL,
-  dept_name VARCHAR(64)
+  dept_no VARCHAR(5) NOT NULL PRIMARY KEY,
+  dept_name VARCHAR(64)	
 );
 
 CREATE TABLE dept_emp (
